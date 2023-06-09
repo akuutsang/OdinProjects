@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    background-color: black;
+    color: white;
+    height: 101px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: Tilt Prism, sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.nav-list{
+    width: 40vw;
+    text-align: center;
+}
+
+.nav-link{
+    padding: 15px;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    
+}
